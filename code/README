@@ -1,1 +1,9 @@
 
+
+nlp_cnn.py	
+segment.py	
+societal_data_processor.py	
+societal_events_cnn.ipynb	
+societal_events_model.ipynb	
+utils.py
+vocabulary.py

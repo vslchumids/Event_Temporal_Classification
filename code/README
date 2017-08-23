@@ -1,9 +1,28 @@
+W266 Term Project: Event Temporal State Identification
+John Chiang, Vincent Chu
 
+File List:
 
-nlp_cnn.py	
-segment.py	
-societal_data_processor.py	
-societal_events_cnn.ipynb	
-societal_events_model.ipynb	
-utils.py
-vocabulary.py
+1) nlp_cnn.py	- Define the NLPCNN class which contains all necessary ops for the NLP CNN model used to
+   predict temporal states of annotated data from the EventStatus corpus.
+   Part of the code adopted and modified from text_cnn.py of Danny Britz's cnn-text-classification-tf Github page
+   <https://github.com/dennybritz/cnn-text-classification-tf>
+
+2) segment.py	- Straight from W266 Week 2 Materials, Used for preliminary EDA on the EventStatus corpus 
+
+3) societal_data_processor.py	- Define helper functions and processing and preparation of the annotated data from the 
+   EventStatus corpus.
+   Includes helper functions from data_helpers.py of Danny Britz's cnn-text-classification-tf Github page
+   <https://github.com/dennybritz/cnn-text-classification-tf>
+
+4) societal_events_cnn.ipynb - iPython notebook the implements the CNN Model.
+   Part of the code adopted and modified from train.py of Danny Britz's cnn-text-classification-tf Github page
+   <https://github.com/dennybritz/cnn-text-classification-tf>
+
+5) societal_events_model.ipynb - iPython notebook the implements the Bag of Words + Random Forest Model.  
+   Part of the code adopted and modified from "Bag of Words meets Bag of Popcorn", kaggle.com, 2014.
+   <https://www.kaggle.com/c/word2vec-nlp-tutorial>
+
+6) utils.py	- Straight from W266 Week 2 Materials, Used for preliminary EDA on the EventStatus corpus
+
+7) vocabulary.py	- Straight from W266 Week 2 Materials, Used for preliminary EDA on the EventStatus corpus
